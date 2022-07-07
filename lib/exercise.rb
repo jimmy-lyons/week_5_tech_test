@@ -4,8 +4,10 @@ def equationEvaluator(sumString)
   num2 = componentsArray[2].to_f
   
   if componentsArray[1] == '+'
-    return [sumString, num1 + num2]
+    result = num1 + num2
   else
-    return [sumString, num1 - num2]
+    result = num1 - num2
   end
+
+  [sumString, result]
 end
