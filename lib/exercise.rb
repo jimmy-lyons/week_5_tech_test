@@ -1,9 +1,7 @@
 def equationEvaluator(sumString)
-  if sumString == "1 + 1"
-    ["1 + 1", 2.0]
-  elsif sumString == "1 + 2"
-    ["1 + 2", 3.0]
-  else
-    ["2 + 2", 4.0]
-  end
+  componentsArray = sumString.split(" ")
+  num1 = componentsArray[0].to_f
+  num2 = componentsArray[2].to_f
+  
+  return [sumString, num1 + num2]
 end
