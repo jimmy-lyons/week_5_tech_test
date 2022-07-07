@@ -7,8 +7,10 @@ def equationEvaluator(sumString)
     result = num1 + num2
   elsif componentsArray[1] == '-'
     result = num1 - num2
-  else
+  elsif componentsArray[1] == '*'
     result = num1 * num2
+  else
+    result = num1 / num2
   end
 
   [sumString, result]

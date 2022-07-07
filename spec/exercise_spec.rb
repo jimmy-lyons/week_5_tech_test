@@ -22,4 +22,7 @@ describe 'equationEvaluator' do
   it 'returns ["3 * 4", 12.0] when given "3 * 4"' do
     expect(equationEvaluator("3 * 4")).to eq ["3 * 4", 12.0]
   end
+  it 'returns ["4 / 2", 2.0] when given "4 / 2"' do
+    expect(equationEvaluator("4 / 2")).to eq ["4 / 2", 2.0]
+  end
 end
