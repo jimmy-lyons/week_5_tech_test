@@ -13,7 +13,7 @@ opperator: +, -. *, /
 string has specific format - which is space separated
 if isn't space separated, then an error should be thrown with the message: MathError "Input must be a valid mathematical string separated by spaces"
 
-Any input that is not a string should throw: "ArgumentError "Input must be a string""
+Any input that is not a string should throw: "ArgumentError "Input must be a string"" 
 
 Input => Output
 "1 + 1" => ["1 + 1", 2.0]
